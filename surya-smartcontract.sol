@@ -1,7 +1,3 @@
-/**
- *Submitted for verification at Etherscan.io on 2020-12-19
-*/
-
 pragma solidity ^0.4.26;
 
 /**
@@ -43,9 +39,9 @@ contract SafeMath {
     }
 }
 
-contract RUBYCURRENCY is SafeMath {
-    string public constant name                         = "RUBY CURRENCY";                  // Name of the token
-    string public constant symbol                       = "RBC";                            // Symbol of token
+contract SURYACURRENCY is SafeMath {
+    string public constant name                         = "SURYA CURRENCY";                  // Name of the token
+    string public constant symbol                       = "OHM";                            // Symbol of token
     uint256 public constant decimals                    = 18;                               // Decimal of token
     uint256 public _totalsupply                         = 300000000 * 10 ** decimals;       // Total supply
     uint256 public _circulatingSupply                   = 20000000 * 10 ** decimals;        // Circulating supply
